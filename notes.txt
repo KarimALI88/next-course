@@ -1,0 +1,58 @@
+-what is Next.js ?
+*Next is The react framework for building a fullstack applications
+*it uses react to build UI, provides additional features(routing, optimized rendering, data fetching, bundling, compiling and more)
+
+
+-why Next.js ?
+*Routing, we create files and routes generated automatically
+*API Routes which help us to build Backend Components
+*Rendering, flexibility when choose client side rendering and server side rendering
+*data fetching
+*styling
+*optimization
+*dev and prod build system
+
+
+-command for start => npx create-next-app@latest 
+
+-.next folder is responsible for development and build
+-public folder where we put the assets
+-src/app where we spent more time because it responsible for app router and project pages 
+
+
+-when we write npm run dev the execution starts from package.json => layout.tsx
+
+-React Server Components(RSC) => 
+1. new architecture introduced by React Team and quickly adopted with next js
+2.the new architecture introduces a new approach to create a react Components by two distinct type (client Components , server Components)
+*next treats all components as server components
+*to create client components, you will need to add "use client" directive at the top of file of component
+
+
+-Routing 
+*Next.js has a file system based routing system 
+*URLs depend on the Folder and files structure
+
+-Routing Conventions
+*All routes must live inside app folder
+*Route Files must be named Page.js or page.tsx
+*Each folder is a segment of URL Path
+*not found pages handled automatically
+
+
+-nested routes
+*folder inside folder
+*blog folder => first folder => page.tsx && second folder => page.tsx
+
+-dynamic route => [folder name]
+-catch all segments => [...slug]
+-optional segments => [[...slug]]
+
+
+-private folders in app directory => is for stuff, routing file system didn't include it (_folderName)
+*دي حاجة بنستخدمها علشان التنظيم ونقدر نحط جواها فورماتس او كومبوننتس 
+
+
+
+-route groups => auth => Login || register
+بس بو مش عاوزين يعتبر الاوث كجزء من الراوت يبقي نحطه جوه()
