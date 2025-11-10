@@ -59,3 +59,13 @@
 
 
 -لو عاوزين نعمل 2 لاي اوت بنعمل فولدر لكل لاي اوت وبعد كده نحط جوه كل فولدر لاي اوت فايل وباقي الفولدرات 
+
+-search params not allowed in layout.tsx
+
+-useRouter only works in client components
+
+*templates is similar to layouts in that they share ui between multiple components but in template make fresh start like it a new page
+ -DOM elements are recreated
+ -state is cleared
+ -effect are re-synnchronized 
+ -template.tsx or template.js
