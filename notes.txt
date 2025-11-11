@@ -69,3 +69,6 @@
  -state is cleared
  -effect are re-synnchronized 
  -template.tsx or template.js
+
+
+ -error.tsx must be in client side so must use "use client"
