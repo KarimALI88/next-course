@@ -72,3 +72,26 @@
 
 
  -error.tsx must be in client side so must use "use client"
+
+
+-Parallel Routes 
+we should create slots which is files start with "@" before folldername 
+
+طب ليه استخدم باراليل راوتس ممكن اقسمهم كومبونننتس لان جوه الباراليل راوتس بقدر جوه الفولدر اعمل لودينج وايرور هاندلنج لكل بارت لوحده
+وكمان بنقدر نعمل صب نافيجيشن من غير ما نغير كل البيدج بنغير جوه كومبوننت واحده بس
+
+اللينك بتاع الصب نافيجيشن لو عملناله رفرش هيجيب 404 عشان مفيش راوت بيعمل ماتش مع ده لازم نروحله من جوه السلوتس 
+لو عاوزين نحل الموضوع ده بقي بنحط جوه لافولدر الكبير بتاع الكومبليكس داش بورد وجوه السلوتس فولدرز بنحط فيهم كلهم فايل اسمه 
+default.tsx
+
+
+***conditional routes inside slots or parallel routes***
+
+*-*-*--*-*-*-*-*-*-**-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+***intercepting routes***
+(.) to match segments on the same level
+(..) to match segments on up one level
+(..)(..) to match segments on up two levels
+(...) to match segments on app directory
+
